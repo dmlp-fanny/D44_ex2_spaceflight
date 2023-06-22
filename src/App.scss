@@ -1,0 +1,59 @@
+.articles {
+    width: 60%;
+    margin: 0 auto;
+    border: lightgrey 2px solid;
+    padding: 1rem;
+    li {
+        list-style-type: none;
+        margin: 1rem 0;
+        a {
+            color: darkcyan;
+            text-decoration: none;
+        }
+    }
+    span {
+        margin-right: 2rem;
+    }
+
+    .pagination {
+        display: flex;
+        justify-content: space-between;
+        .btnPagination {
+            border: none;
+            padding: 0.6rem 1rem;
+            background-color: darkcyan;
+            cursor: pointer;
+        }
+        .btnEmpty {
+            border: darkcyan 1px solid;
+            padding: 0.6rem 1rem;
+            background-color: transparent;
+            cursor: pointer;
+        }
+    }
+}
+
+.article {
+    width: 60%;
+    padding: 1rem;
+    margin: 0 auto;
+    margin-bottom: 5rem;
+    background-color: lightgrey;
+    border: 2px solid lightgrey;
+    img {
+        width: 100%;
+    }
+    h1 {
+        color: darkcyan;
+    }
+    .btnMore {
+        background-color: darkcyan;
+        padding: 0.6rem 1rem;
+        text-align: center;
+        a {
+            color: lightgrey;
+            text-decoration: none;
+            cursor: pointer;
+        }
+    }
+}
